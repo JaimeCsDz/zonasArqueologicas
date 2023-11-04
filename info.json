@@ -1,0 +1,58 @@
+[
+    {
+        "id":1,
+        "nombre":"Comalcaco",
+        "significado":"El nombre de Comalcalco significa en idioma Náhuatl “En la casa del comal",
+        "relevancia":"Fue de gran importancia durante el periodo Clásico, como parte de las rutas comerciales en el sur de Mesoamérica.",
+        "estado":"Tabasco",
+        "abiertoalpublico":true,
+        "mapa":"https://maps.app.goo.gl/D7AS2VFSsnWiKMwL8",
+        "coordenadas": [18.28798, -93.20511],
+        "imagen":"https://historia.nationalgeographic.com.es/medio/2018/02/28/xv5-850546__1280x853.jpg"
+    },
+
+    {
+        "id":1,
+        "nombre":"La venta",
+        "significado":"La zona arqueológica adquiere su nombre por el hecho que allí se realizaba la venta de maderas preciosas a finales del siglo XIX y principios del siglo XX.",
+        "relevancia":"La Venta es considera una de las primeras ciudades del antiguo México. La región fue habitada desde al menos 5,000 a. C., cuando se cultivaba maíz y yuca domesticados.",
+        "estado":"Tabasco",
+        "abiertoalpublico":true,
+        "mapa":"https://maps.app.goo.gl/bcRKSymgZD42Hzic6",
+        "coordenadas": [18.10289, -94.04300],
+        "imagen":"https://www.elheraldodetabasco.com.mx/cultura/c5jzkn-principal-la-venta-.jpg/alternates/LANDSCAPE_768/PRINCIPAL%20LA%20VENTA%20.jpg"
+    },
+    {
+        "id":1,
+        "nombre":"Malpasito",
+        "significado":"Malpasito deriva su nombre del poblado ejidal Malpaso Huimanguillo Tabasco, en alusión a lo accidentado del relieve en la región.",
+        "relevancia":"Malpasito funcionó como punto de cohesión de asentamientos menores ubicados en el valle de Las Flores. ",
+        "estado":"Tabasco",
+        "abiertoalpublico":false,
+        "mapa":"https://maps.app.goo.gl/GDHX7gea1hhRPGTe8",
+        "coordenadas": [17.34237, -93.59841],
+        "imagen":"https://lugares.inah.gob.mx/images/zonas/portadas/_thumb1/1_JUEGO_DE_PELOTA.jpg"
+    },
+    {
+        "id":1,
+        "nombre":"Moral - Reforma",
+        "significado":"La abundancia de árboles de moral (Maclura tinctoria) pudo inspirar un de los nombres más recurrentes y Reforma por encontrarse en el Ejido reforma-Provincia.",
+        "relevancia":"A grandes rasgos, ha sido caracterizada por un vigoroso desarrollo del arte clásico maya, documentado en inscripciones jeroglíficas y arquitectura monumental.",
+        "estado":"Tabasco",
+        "abiertoalpublico":true,
+        "mapa":"https://maps.app.goo.gl/cXUVVojmcDkA68d39",
+        "coordenadas": [17.76937, -91.29818],
+        "imagen":"https://lugares.inah.gob.mx/images/zonas/portadas/_thumb1/301_A_000.jpg"
+    },
+    {
+        "id":1,
+        "nombre":"Pamoná",
+        "significado":"El sitio arqueológico toma su nombre del arroyo Pomoná, tributario del bajo Usumacinta.",
+        "relevancia":"Pomoná o Pakbul, como se lee su nombre jeroglífico, fue un importante asentamiento prehispánico durante el periodo Clásico Tardío entre el año 600 y 800 d.C.",
+        "estado":"Tabasco",
+        "abiertoalpublico":true,
+        "mapa":"https://maps.app.goo.gl/R6oLGAdhR9mj7hXW6",
+        "coordenadas": [17.50109, -91.57961],
+        "imagen":"https://www.mexicoescultura.com/galerias/espacios/principal/pomona.jpg"
+    }
+]

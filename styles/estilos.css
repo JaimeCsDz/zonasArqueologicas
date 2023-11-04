@@ -1,0 +1,214 @@
+*{
+  margin: 0;
+}
+/*colores*/
+:root{
+  --blanco: #fff;
+  --negro: #222;
+  --bg-color: #fff;
+  --section-color: #202834;
+  --navigation: #3b5378;
+
+  --shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+  --boxS: 0 5px 25px rgba(0, 0, 0 / 20%);
+  --scroll: #fff;
+  --scroll-thumb: #282f4e;
+  ---scroll-hover: #454f6b;
+}
+/*HOMEEEEEEEEEEEEEEEE*/
+.home{
+  min-height: 100vh;
+}
+/*SLIDEEEEEEEEEEEEEEEEEEER*/
+.slider{
+  z-index: 777;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+}
+.slider .swiper-slide{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.slider .swiper-slide img{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  pointer-events: none;
+  filter: brightness(70%);
+}
+.swiper-slide .text{
+  position: absolute;
+  top: 30%;
+  color: var(--blanco);
+  margin: 0 100px;
+  transition: 0.3s ease;
+}
+.swiper-slide .text .titulito{
+  font-size: 4em;
+  font-weight: 700;
+  text-shadow: var(--shadow);
+  margin-bottom: 20px;
+  transform: translateY(-50px);
+  opacity: 0;
+}
+
+.swiper-slide-active .text .titulito{
+  transform: translateY(0);
+  opacity: 1;
+  transition: 1s ease;
+  transition-delay: 0.1s;
+  transition-property: transform, opacity;
+}
+.swiper-slide-active .icons {
+  transform: translateY(0);
+  opacity: 1;
+  transition: 1s ease;
+  transition-delay: 0.1s;
+  transition-property: transform, opacity;
+}
+.swiper-slide .text p{
+  max-width: 500px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  text-shadow: var(--shadow);
+  padding: 20px;
+  border-radius: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: var(--boxS);
+  transform: translateX(-80px);
+  opacity: 0;
+}
+.swiper-slide-active .text p{
+  transform: translateX(0);
+  opacity: 1;
+  transition: 1s ease;
+  transition-delay: 0.3s;
+  transition-property: transform, opacity;
+}
+
+.swiper-slide .text .AR{
+  border: none;
+  outline: none;
+  background: var(--blanco);
+  color: var(--negro);
+  font-size: 1em;
+  font-weight: 500;
+  padding: 8px 25px;
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  transform: translateX(50px);
+  opacity: 0;
+}
+.swiper-slide-active .text .AR{
+  transform: translateX(0);
+  opacity: 1;
+  transition: 1s ease;
+  transition-delay: 0.3s;
+  transition-property: transform, opacity;
+}
+
+.swiper-slide .text .AR i{
+  font-size: 1.6em;
+  transition: 0.3s ease;
+}
+.swiper-slide .text .AR:hover i{
+  transform: translateX(5px);
+}
+.dark-layer{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.slider2{
+  z-index: 777;
+  position: absolute;
+  bottom: 1em;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: 0.3s ease;
+  /*display: none;*/
+}
+.thumbs-container{
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 10px 3px;
+  border-radius: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: var(--boxS);
+}
+
+.thumbs-container img{
+  width: 50px;
+  height: 35px;
+  margin: 0 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.swiper-slide-thumb-active{
+  border: 1px solid var(--blanco);
+}
+
+/*Icon*/
+.icons{
+  z-index: 999;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 45%;
+  transform: translateY(-50px);
+  margin-left: 50px;
+  transform: translateY(-50px);
+  opacity: 0;
+}
+.icons a{
+  color: var(--blanco);
+  font-size: 1.7em;
+  margin: 10px 0;
+}
+
+@media screen and (max-width: 1100px){
+  .section{
+    padding: 25px 50px;
+  }
+  .icons{
+    right: 0;
+    margin-right: 50px;
+  }
+  .swiper-slide .text{
+    margin: 0 120px 0 35px;
+  }
+  .slider2{
+    bottom: 3em;
+  }
+}
+@media screen and (max-width: 785px){
+  .icons{
+    margin-right: 20px;
+  }
+  .icons a{
+    font-size: 1.5em;
+  }
+  .swiper-slide .text{
+    margin: 0 70px 0 20px;
+  }
+  .swiper-slide .text .titulito{
+    font-size: 3em;
+  }
+  .swiper-slide .text p{
+    font-size: 0.9em;
+  }
+}
